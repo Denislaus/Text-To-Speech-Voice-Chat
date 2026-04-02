@@ -1,3 +1,5 @@
 venv/
 bg_BG-dimitar-medium.onnx
 bg_BG-dimitar-medium.onnx.json
+node_modules/
+node_modules/*

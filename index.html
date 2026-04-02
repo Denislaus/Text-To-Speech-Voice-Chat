@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Chat TTS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Text-to-Speech Router</h1>
+            <div id="status-badge" class="badge loading">Loading Model...</div>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <label for="text-input">What should I say?</label>
+                <textarea id="text-input" placeholder="Type your message here..." disabled></textarea>
+            </div>
+
+            <button id="speak-btn" disabled>
+                <span class="btn-text">Speak</span>
+                <span class="loader hidden"></span>
+            </button>
+        </main>
+
+        <footer>
+            <p id="device-info">Waiting for backend connection...</p>
+        </footer>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>

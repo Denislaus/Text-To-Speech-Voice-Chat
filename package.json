@@ -1,0 +1,13 @@
+{
+  "name": "text-to-speech-voice-chat",
+  "version": "1.0.0",
+  "description": "Piper TTS with Electron UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \".\\venv\\Scripts\\python backend.py\" \"electron .\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^29.0.0"
+  }
+}
