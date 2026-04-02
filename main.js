@@ -3,15 +3,15 @@ const path = require('path');
 
 function createWindow() {
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
-        backgroundColor: '#0f172a',
+        width: 850,
+        height: 650,
+        backgroundColor: '#101223', // Matches new dark background
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
         },
         autoHideMenuBar: true,
-        title: "Voice Chat TTS"
+        title: "ZeroPass Voice Synth"
     });
 
     win.loadFile('index.html');
